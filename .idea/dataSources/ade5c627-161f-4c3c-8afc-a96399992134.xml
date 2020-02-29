@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="gitanalizer_development@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>13382</ObjectId>
+    </database>
+    <database id="3" parent="1" name="wyzyr_development">
+      <ObjectId>16387</ObjectId>
+    </database>
+    <database id="4" parent="1" name="bitboard_frontend">
+      <ObjectId>19926</ObjectId>
+    </database>
+    <database id="5" parent="1" name="wyzyr_test">
+      <ObjectId>30872</ObjectId>
+    </database>
+    <database id="6" parent="1" name="cnu_development">
+      <ObjectId>42345</ObjectId>
+    </database>
+    <database id="7" parent="1" name="cnu_test">
+      <ObjectId>43892</ObjectId>
+    </database>
+    <database id="8" parent="1" name="upperhand_io_dev">
+      <ObjectId>211940</ObjectId>
+    </database>
+    <database id="9" parent="1" name="upperhand_io_test">
+      <ObjectId>227801</ObjectId>
+    </database>
+    <database id="10" parent="1" name="global_development">
+      <ObjectId>241024</ObjectId>
+    </database>
+    <database id="11" parent="1" name="global_test">
+      <ObjectId>256451</ObjectId>
+    </database>
+    <database id="12" parent="1" name="gitanalizer_development">
+      <ObjectId>261282</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="13" parent="1" name="gitanalizer_test">
+      <ObjectId>261283</ObjectId>
+    </database>
+    <role id="14" parent="1" name="bitboard">
+      <ObjectId>19927</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="15" parent="1" name="cnu">
+      <ObjectId>19928</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="16" parent="1" name="farther">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="17" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="18" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="19" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="20" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="21" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="22" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="23" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="24" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="25" parent="1" name="postgres">
+      <ObjectId>16384</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="26" parent="1" name="root">
+      <ObjectId>230231</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="27" parent="12" name="public">
+      <ObjectId>2200</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="28" parent="12" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="29" parent="12" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="30" parent="12" name="pg_temp_1">
+      <ObjectId>11804</ObjectId>
+    </schema>
+    <schema id="31" parent="12" name="pg_toast_temp_1">
+      <ObjectId>11805</ObjectId>
+    </schema>
+    <schema id="32" parent="12" name="information_schema">
+      <ObjectId>13086</ObjectId>
+    </schema>
+    <sequence id="33" parent="27" name="statistics_id_seq">
+      <ObjectId>261300</ObjectId>
+      <StateNumber>401107</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="34" parent="27" name="ar_internal_metadata">
+      <ObjectId>261292</ObjectId>
+      <StateNumber>401106</StateNumber>
+    </table>
+    <table id="35" parent="27" name="schema_migrations">
+      <ObjectId>261284</ObjectId>
+      <StateNumber>401105</StateNumber>
+    </table>
+    <table id="36" parent="27" name="statistics">
+      <ObjectId>261302</ObjectId>
+      <StateNumber>401107</StateNumber>
+    </table>
+  </database-model>
+</dataSource>
